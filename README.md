@@ -1,3 +1,4 @@
+
 Calculator
 ---
 <img src="Logotype primary.png" width="60%" height="60%" />
@@ -16,9 +17,11 @@ Try It
 Install
 ---
 
+### On linux and Mac
 `npm install`
 
-
+### On Windows
+`npm install --no-optional`
 
 Usage
 ---
