@@ -1,4 +1,4 @@
-import calculate from "./calculate";
+import calculate from "../logic/calculate";
 import chai from "chai";
 
 // https://github.com/chaijs/chai/issues/469
