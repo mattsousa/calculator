@@ -2,6 +2,7 @@ import React from "react";
 import Display from "../Display/Display";
 import ButtonPanel from "../ButtonPanel/ButtonPanel";
 import calculate from "../../logic/calculate";
+import KeyboardHandler from '../KeyboardHandler'
 import "./App.css";
 
 export default class App extends React.Component {
@@ -20,6 +21,7 @@ export default class App extends React.Component {
       <div className="component-app">
         <Display value={this.state.next || this.state.total || "0"} />
         <ButtonPanel clickHandler={this.handleClick} />
+        <KeyboardHandler/>
       </div>
     );
   }
